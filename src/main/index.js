@@ -4,5 +4,5 @@ const logger = require("../../resources/logger");
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
-	logger.info(`server is up and running at ${PORT}`);
+  logger.info(`server is up and running at ${PORT}`);
 });

@@ -1,33 +1,39 @@
 {
-	"name": "nodejs-backend-starter",
-	"version": "1.0.0",
-	"description": "",
-	"main": "src/main/index.js",
-	"scripts": {
-		"test": "node resources/jasmine.js",
-		"dev": "nodemon index",
-		"start": "node src/main/index"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/KobloshAlex/nodejs-backend-starter.git"
-	},
-	"keywords": [],
-	"author": "Koblosh Oleksandr",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/KobloshAlex/nodejs-backend-starter/issues"
-	},
-	"homepage": "https://github.com/KobloshAlex/nodejs-backend-starter#readme",
-	"dependencies": {
-		"dotenv": "^8.2.0",
-		"express": "^4.17.1",
-		"winston": "^3.3.3"
-	},
-	"devDependencies": {
-		"jasmine": "^3.7.0",
-		"jasmine-console-reporter": "^3.1.0",
-		"nodemon": "^2.0.7",
-		"nyc": "^15.1.0"
-	}
+  "name": "nodejs-backend-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/index.js",
+  "scripts": {
+    "test": "node resources/jasmine.js",
+    "dev": "nodemon index",
+    "start": "node src/main/index",
+    "format": "prettier --write \"./**/*.{js,json}\"",
+    "check": "prettier --check \"./**/*.{js,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KobloshAlex/nodejs-backend-starter.git"
+  },
+  "keywords": [],
+  "author": "Koblosh Oleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KobloshAlex/nodejs-backend-starter/issues"
+  },
+  "homepage": "https://github.com/KobloshAlex/nodejs-backend-starter#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jasmine": "^3.7.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.0"
+  }
 }
